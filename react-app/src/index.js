@@ -3,7 +3,7 @@
 import React from "react" ;
 import ReactDOM from "react-dom" ;
 
-function MyHeadrer() {
+function MyHeader() {
   return (
     <header>
       <h1>Hello React, I'm not new here Hehe!</h1>
@@ -16,4 +16,4 @@ function MyHeadrer() {
   )
 }
 
-ReactDOM.render(<myHeader />, document.getElementById("root"));
+ReactDOM.render(<MyHeader />, document.getElementById("root"));
