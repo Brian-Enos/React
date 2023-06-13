@@ -38,4 +38,13 @@ main {
 .main--title {
   margin: 0;
   font-size: 39px;
+  letter-spacing: -0.05rem;
+}
+.main--facts {
+  margin-top: 2.85rem;
+}
+
+.main--facts li {
+  line-height: 1.25rem;
+  padding-block: 10px; /* Padding for top and bottom only */
 }
