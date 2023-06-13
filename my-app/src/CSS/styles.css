@@ -20,7 +20,11 @@ nav img {
 h3 {
   margin-right: auto;
   color: #61DAFB;
+  font-weight: 700;
+  font-size: 1.4rem;
 }
 h4 {
   color: #DEEBF8;
+  font-weight: 600;
+  font-size: 1.5rem;
 }
