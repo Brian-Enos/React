@@ -5,8 +5,8 @@ import ReactDOM from "react-dom" ;
 
 export default function Main() {
   return (
-    <nav>
+    <div>
       <h1>Main Component Goes here</h1>
-    </nav>
+    </div>
   )
 }
