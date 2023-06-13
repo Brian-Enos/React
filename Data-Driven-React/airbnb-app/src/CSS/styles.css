@@ -4,13 +4,14 @@
   box-sizing: border-box;
 }
 
-.logo {
+/* .logo {
   width: 20%;
   height: auto;
-}
+} */
 
 nav {
   height: 4.45rem;
   display: flex;
   background-color: blue;
+  padding: 1.25rem 2rem;
 }
