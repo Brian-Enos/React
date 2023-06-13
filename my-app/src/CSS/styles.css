@@ -33,6 +33,12 @@ h4 {
 main {
   padding: 57px 27px;
   color: #fff;
+  background-image:  url(../Images/react-icon-small.png);
+  background-color: rgba(0,0,0, .5);
+  background-repeat: no-repeat;
+  background-position-x: 110%;
+  background-position-y: 75%;
+  background-blend-mode: darken;
 }
 
 .main--title {
