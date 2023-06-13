@@ -1,7 +1,7 @@
 
 
 import React from 'react';
-import RaectDOm from "react-dom" ;
+import ReactDOM from "react-dom";
 
 import Navbar from "./Navbar";
 import Main from "./Main" ;
