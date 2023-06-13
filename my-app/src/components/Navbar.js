@@ -2,12 +2,13 @@
 
 import React from "react" ;
 import ReactDOM from "react-dom" ;
+import Image from "../Images/react-icon-small.png" ;
 
 export default function Navbar() {
   return (
-    <div>
-      <h1>Navbar Componet Goes Here</h1>
-    </div>
+    <nav>
+      <img src={Image} />
+    </nav>
   )
 }
 
