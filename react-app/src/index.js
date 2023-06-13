@@ -6,7 +6,7 @@ import ReactDOM from "react-dom" ;
 function MyHeader() {
   return (
     <header>
-      <h1>Hello React, I'm not new here Hehe!</h1>
+      <h1>Hello React, I'm not new here Hehe</h1>
       <ul>
         <li>Pricing</li>
         <li>About</li>
