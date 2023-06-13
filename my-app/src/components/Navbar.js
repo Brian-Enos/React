@@ -10,7 +10,7 @@ export default function Navbar() {
     <nav>
       <img src={Image} />
       <h3>React Facts</h3>
-      <h4>React Course- Project 1</h4>
+      <h4>React Course - Project 1</h4>
     </nav>
   )
 }
