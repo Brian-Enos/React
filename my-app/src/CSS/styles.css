@@ -12,6 +12,8 @@ nav {
 }
 body {
   font-family: Inter, sans-serif;
+  height: 100vh;
+  background-color: #282D35;
 }
 nav img {
   width: 7%;
@@ -27,4 +29,13 @@ h4 {
   color: #DEEBF8;
   font-weight: 600;
   font-size: 1.5rem;
+}
+main {
+  padding: 57px 27px;
+  color: #fff;
+}
+
+.main--title {
+  margin: 0;
+  font-size: 39px;
 }
