@@ -5,6 +5,12 @@
 }
 
 .logo {
-  width: 15%;
+  width: 20%;
   height: auto;
+}
+
+nav {
+  height: 4.45rem;
+  display: flex;
+  background-color: blue;
 }
