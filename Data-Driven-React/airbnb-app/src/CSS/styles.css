@@ -12,6 +12,6 @@
 nav {
   height: 4.45rem;
   display: flex;
-  background-color: blue;
   padding: 1.25rem 2rem;
+  box-shadow: 0px 2.98256px 7.456px rgba(0,0,0,0.1);
 }
