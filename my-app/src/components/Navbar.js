@@ -3,6 +3,7 @@
 import React from "react" ;
 import ReactDOM from "react-dom" ;
 import Image from "../Images/react-icon-small.png" ;
+import Styles from "../CSS/styles.css" ;
 
 export default function Navbar() {
   return (
