@@ -44,7 +44,11 @@ main {
   margin-top: 2.85rem;
 }
 
-.main--facts li {
+.main--facts > li {
   line-height: 1.25rem;
   padding-block: 10px; /* Padding for top and bottom only */
+}
+.main--facts > li::marker {
+  color: #61DAFB;
+  font-size: 1.4rem;
 }
