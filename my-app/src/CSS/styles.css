@@ -7,11 +7,20 @@ nav {
   display: flex;
   align-items: center;
   background-color: #21222A;
-  justify-content: space-between;
   height: 90px;
   padding: 30px 25px;
+}
+body {
+  font-family: Inter, sans-serif;
 }
 nav img {
   width: 7%;
   height: auto;
+}
+h3 {
+  margin-right: auto;
+  color: #61DAFB;
+}
+h4 {
+  color: #DEEBF8;
 }
