@@ -1,6 +1,6 @@
-import React from "react" ;
+import React from "react";
 import ReactDOM from "react-dom";
-import Contacts from "../Components/Contacts" ;
+import Contacts from "../Components/Contacts";
 import FirstContact from "../Images/contact-1.png";
 import SecondContact from "../Images/contact-2.png";
 import ThirdContact from "../Images/contact-3.jpg";
@@ -9,41 +9,44 @@ import MailIcon from "../Images/mail-icon.png";
 import PhoneIcon from "../Images/phone-icon.png";
 import CSS from "../CSS/styles.css";
 
-
-
-
- export function App() {
+function App(props) {
   return (
-    <Contacts
-      img={FirstContact}
-      name="Mr. Whiskerson"
-      phone="(212) 555-2345"
-      emai="fluf@me.com"
-    /> ,
+    <div>
+      {/* First contact group */}
+      <div>
+        <Contacts
+          img={FirstContact}
+          name="Mr. Whiskerson"
+          phone="(212) 555-2345"
+          email="fluf@me.com"
+        />
 
-    <Contacts 
-      img={SecondContact}
-      name="Fluffykins"
-      phone="(212) 555-2345"
-      emai="fluf@me.com"
+        <Contacts
+          img={SecondContact}
+          name="Fluffykins"
+          phone="(212) 555-2345"
+          email="fluf@me.com"
+        />
+      </div>
 
-     />,
-     
-     <Contacts 
-      img={ThirdContact}
-      name="Felix"
-      phone="(212) 555-4567"
-      emai="thecat@hotmail.com"
+      {/* Second contact group */}
+      <div>
+        <Contacts
+          img={ThirdContact}
+          name="Felix"
+          phone="(212) 555-4567"
+          email="thecat@hotmail.com"
+        />
 
-     />,
-
-
-     <Contacts 
-      img={FourthContact}
-      name="Pumpkins"
-      phone="(212) CAT KING"
-      emai="pumpkins@hotmail.com"
-
-     />
-  )
+        <Contacts
+          img={FourthContact}
+          name="Pumpkins"
+          phone="(212) CAT KING"
+          email="pumpkins@hotmail.com"
+        />
+      </div>
+    </div>
+  );
 }
+
+export default App;
