@@ -11,7 +11,7 @@ export default function() {
     <div className="card">
       <img src={Image} />
       <div className="card-stats">
-        <img src={StarIcon}>
+        <img src={StarIcon} />
           <span>5.0</span>
           <span>(6) . </span>
           <span>USA</span>
