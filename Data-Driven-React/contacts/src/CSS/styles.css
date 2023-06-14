@@ -23,7 +23,7 @@ body {
   display: flex;
   flex-direction: column;
   padding: 13px;
-  padding-bottom: 20px;
+  padding-bottom: 18px;
   background-color: white;
 }
 .contact-card > img {
@@ -32,4 +32,16 @@ body {
   align-self: center;
   border-radius: 5px;
   object-fit: cover;
+}
+.contact-card > h3 {
+  font-weight: 700;
+  font-size: 18px ;
+}
+.info-group {
+  display: flex;
+  align-items: center;
+}
+.info-group > img {
+  height: 18px;
+  margin-right: 10px;
 }
