@@ -45,3 +45,8 @@ body {
   height: 18px;
   margin-right: 10px;
 }
+.info-group > p {
+  margin-block: 3px;
+  font-size: .75rem;
+  color: #2B283A;
+}
