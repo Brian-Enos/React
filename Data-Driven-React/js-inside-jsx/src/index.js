@@ -2,7 +2,7 @@
 import React from "react" ;
 import ReactDOM from "react-dom" ;
 
-function App() {
+/* function App() {
 
   const firstName = "Brian";
   const lastName = "Otieno" ;
@@ -11,5 +11,15 @@ function App() {
     <h1>Hello {firstName} {lastName}!</h1>
   )
 }
+ */
 
-ReactDOM.render(<App />, document.getElementById("root"));
+function App() {
+
+  const date = new Date();
+    
+  return (
+    <h1>It's currently about {date.getHours() % 12}!</h1>
+  )
+
+}
+  ReactDOM.render(<App />, document.getElementById("root"));
