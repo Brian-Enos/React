@@ -3,6 +3,7 @@ import ReactDOM from "react-dom";
 import FirstContact from "../Images/contact-1.png";
 import MailIcon from "../Images/mail-icon.png";
 import PhoneIcon from "../Images/phone-icon.png";
+import CSS from "../CSS/styles.css";
 
 
 export default function Contacts() {
