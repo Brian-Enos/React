@@ -31,7 +31,6 @@ section {
 }
 .hero-photo {
   max-width: 30rem;
-  background-color: blue;
   align-self: center;
 }
 .hero--header {
@@ -39,4 +38,26 @@ section {
 }
 .hero--text {
   margin-top: 0;
+}
+.card {
+  width: 10.94rem;
+  font-size: .75rem;
+}
+.card--image {
+  width: 100%;
+  border-radius: .5625rem;
+}
+.gray {
+  color: #918E9B;
+}
+.car--stats {
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
+}
+.bold {
+  font-weight: bold;
+}
+.card--star {
+  height: .875rem;
 }
