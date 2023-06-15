@@ -3,22 +3,22 @@
 import React from "react" ;
 import ReactDOM from "react-dom";
 
-import StarIcon from "../Images/Star 1.png";
-import Image from "../Images/image 12.png" ;
+/* import StarIcon from "../Images/Star 1.png";
+import Image from "../Images/image 12.png" ; */
 import CSS from "../CSS/styles.css";
 
-export default function Card() {
+export default function Card(props) {
   return (
     <div className="card">
-      <img src={Image} className="card--image" />
+      <img src={props.img} className="card--image" />
       <div className="card--stats">
-        <img src={StarIcon} className="card--star" />
-          <span>5.0</span>
-          <span className="gray">(6) . </span>
-          <span className="gray">USA</span>
+        <img src={props.icon} className="card--star" />
+          <span>{props.rating}</span>
+          <span className="gray">{props.reviewCount}. </span>
+          <span className="gray">{props.country}</span>
       </div>
-      <p>Life Lessons with kattie Zaferes </p>
-      <p><span className="bold">From $136</span> / person</p>
+      <p>{props.title}</p>
+      <p><span className="bold">From $ {props.price}</span> / person</p>
     </div>
   )
 }
