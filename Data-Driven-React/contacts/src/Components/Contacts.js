@@ -12,61 +12,30 @@ export default function Contacts(props) {
   console.log(props);
   return (
     <div className="contacts">
+
       <div className="contact-card">
-        {/* First contact begins here */}
-        <img src={FirstContact} />
+
+        {/*  Contact Group  begins here */}
+
+        <img src={props.img} />
+
         <h3>{props.name}</h3>
+
         <div className="info-group">
+
           <img src={PhoneIcon} />
+
           <p>{props.phone}</p>
         </div>
+
         <div className="info-group">
+
           <img src={MailIcon} />
+
           <p>{props.email}</p>
+
         </div>
       </div>
-
-      {/* {/* Second contact begins here */}
-      {/* <div className="contact-card">
-        <img src={SecondContact} />
-        <h3>{props.name}</h3>
-        <div className="info-group">
-          <img src={PhoneIcon} />
-          <p>{props.phone}</p>
-        </div>
-        <div className="info-group">
-          <img src={MailIcon} />
-          <p>{props.email}</p>
-        </div>
-      </div> */} 
-
-      {/* Third contact begins here */}
-      {/* <div className="contact-card">
-        <img src={ThirdContact} />
-        <h3>{props.name}</h3>
-        <div className="info-group">
-          <img src={PhoneIcon} />
-          <p>{props.phone}</p>
-        </div>
-        <div className="info-group">
-          <img src={MailIcon} />
-          <p>{props.email}</p>
-        </div>
-      </div> */}
-
-      {/* Fourth contact begins here */}
-      {/* <div className="contact-card">
-        <img src={FourthContact} />
-        <h3>{props.name}</h3>
-        <div className="info-group">
-          <img src={PhoneIcon} />
-          <p>{props.phone}</p>
-        </div>
-        <div className="info-group">
-          <img src={MailIcon} />
-          <p>{props.email}</p>
-        </div>
-      </div> */}
     </div>
   );
 }
