@@ -6,23 +6,23 @@ function App() {
   return (
     <div>
       <Joke 
-        setup="Evening "
-        punchline="Jokes in the evening  are always funny "
+        setup="I got my daughter a fridge for her birthday "
+        punchline="I can't wait to see her face light up when she opens it "
       />,
 
       <Joke 
-        setup="This should have been a setup"
-        punchline="No Joke Today  "
+        setup="How did the hacker escape the polive cell?"
+        punchline="He just ransomware!"
       />,
 
       <Joke 
-        setup="Afternoon "
-        punchline="Too Tired for a joke "
+        setup="Why don't pirates travel on mountain roads? "
+        punchline="Scurvy"
       />
 
       <Joke 
-        setup="Morning" 
-        punchline="There are no Jokes in the morning, Only serious work "
+        setup="What's the best thing about Switzerland? " 
+        punchline="I don't know, but the flag is a big plus!"
       />
 
     </div>
