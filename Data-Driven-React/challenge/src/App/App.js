@@ -4,14 +4,28 @@ import Joke from "../Components/Joke";
 
 function App() {
   return (
-    <>
-    <Joke />
+    <div>
+      <Joke 
+        setup="Evening "
+        punchline="Jokes in the evening  are always funny "
+      />,
 
-    <Joke />
+      <Joke 
+        setup="This should have been a setup"
+        punchline="No Joke Today  "
+      />,
 
-    <Joke />
+      <Joke 
+        setup="Afternoon "
+        punchline="Too Tired for a joke "
+      />
 
-    </>
+      <Joke 
+        setup="Morning" 
+        punchline="There are no Jokes in the morning, Only serious work "
+      />
+
+    </div>
   )
 }
 
