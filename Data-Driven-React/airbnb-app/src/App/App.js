@@ -17,11 +17,11 @@ export default function Nabar() {
       <Card
         img={Image}
         icon={Icon}
-        rating="6"
+        rating={5}
         reviewCount="(6)"
         country="Nairobi"
         title="Life Lessons with Kattie Zaferas"
-        price="136"
+        price={136}
 
        />
     </div>
