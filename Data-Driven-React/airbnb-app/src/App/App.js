@@ -9,7 +9,10 @@ import Card from "../Components/Card";
 import Icon from "../Images/Star 1-1.png";
 import Image from "../Images/image 12.png";
 
+import Data from "../Components/Data";
+
 export default function Nabar() {
+  console.log(Data);
   return (
     <div>
       <Navbar />
@@ -19,8 +22,8 @@ export default function Nabar() {
         icon={Icon}
         rating={5}
         reviewCount="(6)"
-        country="Nairobi"
-        title="Life Lessons with Kattie Zaferas"
+        location="Nairobi"
+        title=""
         price={136}
 
        />
